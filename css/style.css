@@ -1,0 +1,126 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, div, p, span, #mainNav .navbar-nav .nav-item .nav-link,#mainNav .navbar-brand, a{
+  font-family: 'Fira Code', monospace;
+}
+
+#about-image img {
+  width: 100%;
+  max-width: 350px;
+  border: solid grey 1px;
+  border-radius: 100%;
+  box-shadow: 1px 8px 8px 1px rgba(75, 75, 75, 0.25);
+}
+.social-links {
+  height: 30px;
+  width: 30px;
+  opacity: 0.6;
+}
+#works {
+  max-width: 825px;
+}
+.fadein {
+  animation: fadeIn ease-in 1.5s;
+  -webkit-animation: fadeIn ease-in 1.5s;
+  -moz-animation: fadeIn ease-in 1.5s;
+  -o-animation: fadeIn ease-in 1.5s;
+  -ms-animation: fadeIn ease-in 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bg-1{
+  background-color: #8af3ff;
+  }
+  .bg-2{
+  background-color: #18A999;
+  }
+  .bg-3{
+  background-color: #109648;
+  }
+  .bg-4{
+  background-color: #484349;
+  }
+  .bg-5{
+  background-color: #F7F0F0; 
+  }
+  .text-1{
+    color:#8AF3FF
+  }
+  .text-2{
+    color:#18A999
+  }
+  .text-3{
+    color: #109648;
+  }
+  .text-4{
+    color: #484349;
+  }
+  .text-5{
+    color: #F7F0F0;
+  }
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption{
+    background: rgb(58 227 244 / 50%);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(58, 227, 244, 0.5);
+  }
+
+
+
+  #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: rgba(58, 227, 244)
+}
+
+.btn-main:hover{
+  background-color: rgba(58, 227, 244)
+}
