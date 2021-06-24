@@ -11299,7 +11299,7 @@ header.masthead {
       rgba(92, 77, 66, 0.2) 0%,
       rgba(92, 77, 66, 0.8) 100%
     ),
-    url("https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg");
+    url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg");
   background-position: center;
   background-attachment: scroll;
   /* background-repeat: no-repeat; */
@@ -11309,10 +11309,10 @@ header.masthead h1,
 header.masthead .h1 {
   font-size: 2.25rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 325px) {
   header.masthead {
     height: 100vh;
-    min-height: 40rem;
+    min-height: 100vh;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
@@ -11321,7 +11321,7 @@ header.masthead .h1 {
   }
   header.masthead h1,
   header.masthead .h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 1200px) {

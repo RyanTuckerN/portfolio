@@ -1,5 +1,14 @@
+body{
+overflow-x: hidden;
+}
+
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, div, p, span, #mainNav .navbar-nav .nav-item .nav-link,#mainNav .navbar-brand, a{
   font-family: 'Fira Code', monospace;
+}
+
+footer{
+  background-color: #e7e5e5;
 }
 
 #about-image img {
@@ -107,8 +116,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, div, p, span, #mainNav .na
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    /* background-repeat-x: initial;
+    background-repeat-y: initial; */
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
@@ -124,3 +133,63 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, div, p, span, #mainNav .na
 .btn-main:hover{
   background-color: rgba(58, 227, 244)
 }
+
+/* typing effect */
+#title{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* fadein */
+nav, hr.divider, #subtitle{
+  animation:1s ease 2s normal forwards 1 fadein;
+  -webkit-animation:1s ease 2s normal forwards 1 fadein;
+  opacity:0
+  }
+  
+  @keyframes fadein{from{opacity:0}
+  to{opacity:1}
+  }
+  
+  @-webkit-keyframes fadein{from{opacity:0}
+  to{opacity:1}
+  }
+
+  @media (max-width: 600px) {
+    #title{
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 2.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+  }
+
+  /* appear on scroll effect */
+  .js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
