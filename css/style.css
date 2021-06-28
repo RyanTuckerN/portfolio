@@ -121,7 +121,7 @@ footer{
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgba(58, 227, 244, 0.5);
+    background-color: rgba(0, 59, 70, 0.753);
   }
 
 
@@ -152,7 +152,7 @@ footer{
 }
 
 /* fadein */
-nav, hr.divider, #subtitle{
+nav, #intro-hr, #subtitle{
   animation:1s ease 2s normal forwards 1 fadein;
   -webkit-animation:1s ease 2s normal forwards 1 fadein;
   opacity:0
@@ -193,3 +193,4 @@ nav, hr.divider, #subtitle{
   .js-scroll.scrolled {
     opacity: 1;
   }
+
