@@ -11299,7 +11299,7 @@ header.masthead {
       rgba(92, 77, 66, 0.2) 0%,
       rgba(92, 77, 66, 0.8) 100%
     ),
-    url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg");
+    url("../assets/img/background.jpg");
   background-position: center;
   background-attachment: scroll;
   /* background-repeat: no-repeat; */
