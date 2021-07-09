@@ -194,3 +194,6 @@ nav, #intro-hr, #subtitle{
     opacity: 1;
   }
 
+  #skills  img {
+    filter: invert(55%) sepia(48%) saturate(4804%) hue-rotate(141deg) brightness(96%) contrast(81%);
+  }
